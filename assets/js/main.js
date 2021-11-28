@@ -25,7 +25,7 @@
 			$window.on('load', function() {
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
-				}, 100);
+				}, 70);
 			});
 
 		// Fix: Placeholder polyfill.
@@ -101,7 +101,7 @@
 						overlayColor: '#222226',
 						overlayOpacity: 0.75,
 						popupLoaderText: '',
-						fadeSpeed: 500,
+						fadeSpeed: 700,
 						usePopupDefaultStyling: false,
 						windowMargin: (skel.breakpoint('small').active ? 5 : 50)
 					});
